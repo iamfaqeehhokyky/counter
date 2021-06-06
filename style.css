@@ -1,0 +1,56 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: Tahoma;
+    padding-top: 40px;
+}
+
+#value{
+    font-weight: 900;
+    font-family: Tahoma;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.button-container {
+    background-color: none;
+    padding: 15px 32px;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.button-container .decrease,
+.button-container .increase {
+    padding: 16px;
+    padding-top: -10;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-container .decrease {
+    background-color: #008CBA;
+}
+
+.button-container .reset {
+    background-color: #f44336;
+    border-radius: 50%;
+    padding: 25px 16px;
+    cursor: pointer;
+}
+
+.button-container .increase {
+    background-color: #4CAF50;
+}
